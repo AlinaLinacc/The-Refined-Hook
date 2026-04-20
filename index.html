@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <title>The Refined Hook Portfolio</title>
+  <style>
+  body { font-family:'Josefin Sans', sans-serif; margin: 0; background: #faf6f2; color: #333; }
+  header { background: #e3d2c3; padding: 2rem; text-align: center; }
+  header h1 { margin: 0; font-size: 2.5rem; }
+  nav { background: #f0e7df; padding: 1rem; text-align: center; }
+  nav a { margin: 0 1rem; text-decoration: none; color: #333; font-weight: bold; }
+  .container { max-width: 900px; margin: 2rem auto; padding: 1rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1.5rem; }
+
+  .card {
+    background: white;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; /* чтобы края картинок не вылезали */
+  }
+
+  .card img {
+    width: 100%;
+    height: 300px;       /* фиксированная высота */
+    object-fit: cover;  /* аккуратная обрезка без искажений */
+    border-radius: 10px;
+    display: block;
+  }
+  @media (max-width: 600px) {
+  .card img {
+    height: auto;        /* убираем фиксированную высоту */
+    object-fit: contain;/* показываем всё изображение */
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* по одной карточке в ряд */
+  }
+}
+
+  .footer { text-align: center; padding: 2rem; color: #777; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>The Refined Hook</h1>
+    <p>Handcrafted soft friends & collectible knitted creatures</p>
+  </header>
+  <nav>
+    <a href="#toys">Toy Patterns</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  
+  <div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="панда.jpeg"  />
+        <h3>Bamboo Panda</h3>
+      </div>
+      <div class="card">
+        <img src="панда2.jpeg"  />
+        <h3>Bamboo Panda</h3>
+      </div>
+      <div class="card">
+        <img src="панда3.jpeg"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+    <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/pattern-bamboo-panda/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>  
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="лось.jpeg"  />
+        <h3>Merry Moose</h3>
+      </div>
+      <div class="card">
+        <img src="лось2.jpeg"  />
+        <h3>Merry Moose</h3>
+      </div>
+      <div class="card">
+        <img src="лось3.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/merry-moose-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="лисичка.jpeg"  />
+        <h3>Sweet Little Fox</h3>
+      </div>
+      <div class="card">
+        <img src="лисичка3.jpeg"  />
+        <h3>Sweet Little Fox</h3>
+      </div>
+      <div class="card">
+        <img src="pattern.jpeg"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/sweet-little-fox-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div> 
+
+    <div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="мишка2.jpeg"  />
+        <h3>Cinnamon Bear</h3>
+      </div>
+      <div class="card">
+        <img src="мишка.jpeg"  />
+        <h3>Cinnamon Bear</h3>
+      </div>
+      <div class="card">
+        <img src="мишка3.jpeg"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+      <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/cinnamon-bear-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>  
+
+  <div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="белый.jpeg"  />
+        <h3>Softie Bunny</h3>
+      </div>
+      <div class="card">
+        <img src="белый2.jpeg"  />
+        <h3>Softie Bunny</h3>
+      </div>
+      <div class="card">
+        <img src="белый3.jpeg"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+    <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/pattern-softie-bunny/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>  
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="заяц.jpeg"  />
+        <h3>Christmas Bunny</h3>
+      </div>
+      <div class="card">
+        <img src="заяц2.jpeg"  />
+        <h3>Christmas Bunny</h3>
+      </div>
+      <div class="card">
+        <img src="заяц3.jpeg"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+      <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/pattern-christmas-bunny/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>  
+
+  <div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="собачка.jpeg"  />
+        <h3>Tiny Pup</h3>
+      </div>
+      <div class="card">
+        <img src="собачка2.jpeg"  />
+        <h3>Tiny Pup</h3>
+      </div>
+      <div class="card">
+        <img src="собачка3.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+    <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/pattern-tiny-pup/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div> 
+
+  <div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="мишканг.jpeg"  />
+        <h3>Christmas Bear</h3>
+      </div>
+      <div class="card">
+        <img src="мишканг2.jpeg"  />
+        <h3>Christmas Bear</h3>
+      </div>
+      <div class="card">
+        <img src="мишканг3.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+    <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/christmas-bear-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>
+  
+
+  <div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="слоник.jpeg"  />
+        <h3>Dreamy Elephant</h3>
+      </div>
+      <div class="card">
+        <img src="слоник2.jpeg"  />
+        <h3>Dreamy Elephant</h3>
+      </div>
+      <div class="card">
+        <img src="слоник3.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+    <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/dreamy-elephant-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="заяцц2.jpeg"  />
+        <h3>Bunny Bloom</h3>
+      </div>
+      <div class="card">
+        <img src="заяцц.jpeg"  />
+        <h3>Bunny Bloom</h3>
+      </div>
+      <div class="card">
+        <img src="заяцц3.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/bunny-bloom-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+  </div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Sunny Chick.jpg"  />
+        <h3>Sunny Chick</h3>
+      </div>
+      <div class="card">
+        <img src="Sunny Chick3.png"  />
+        <h3>Sunny Chick</h3>
+      </div>
+      <div class="card">
+        <img src="Sunny Chick4.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/sunny-chick-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Sleepy Koala.png"  />
+        <h3>Sleepy Koala</h3>
+      </div>
+      <div class="card">
+        <img src="Sleepy Koala4.jpeg"  />
+        <h3>Sleepy Koala</h3>
+      </div>
+      <div class="card">
+        <img src="Sleapy Koalapattern.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/sleepy-koala-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Hedgehug2.png"  />
+        <h3>Hedgehug</h3>
+      </div>
+      <div class="card">
+        <img src="Hedgehug.png"  />
+        <h3>Hedgehug</h3>
+      </div>
+      <div class="card">
+        <img src="Hedgehug3.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/hedgehug-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Rosie Piglet.jpeg"  />
+        <h3>Rosie Piglet</h3>
+      </div>
+      <div class="card">
+        <img src="Rosie Piglet2.jpeg"  />
+        <h3>Rosie Piglet</h3>
+      </div>
+      <div class="card">
+        <img src="Rosie Piglet.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/rosie-piglet-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Cloudy Bunny2.jpeg"  />
+        <h3>Cloudy Bunny</h3>
+      </div>
+      <div class="card">
+        <img src="Cloudy Bunny4.jpeg"  />
+        <h3>Cloudy Bunny</h3>
+      </div>
+      <div class="card">
+        <img src="Cloudy Bunny.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/cloudy-bunny-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Fluffy Lamb2.jpg"  />
+        <h3>Fluffy Lamb</h3>
+      </div>
+      <div class="card">
+        <img src="Fluffy Lamb.jpg"  />
+        <h3>Fluffy Lamb</h3>
+      </div>
+      <div class="card">
+        <img src="patternFluffyLamp.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/cloudy-bunny-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Gentle Giraffe.jpg"  />
+        <h3>Gentle Giraffe</h3>
+      </div>
+      <div class="card">
+        <img src="Gentle Giraffe2.jpeg"  />
+        <h3>Gentle Giraffe</h3>
+      </div>
+      <div class="card">
+        <img src="Gentle Giraffe.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/cloudy-bunny-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Little Froggy2.jpg"  />
+        <h3>Little Froggy</h3>
+      </div>
+      <div class="card">
+        <img src="Little Froggy.jpeg"  />
+        <h3>Little Froggy</h3>
+      </div>
+      <div class="card">
+        <img src="Little Froggy.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/cloudy-bunny-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Velvet Teddy4.jpg"  />
+        <h3>Velvet Teddy</h3>
+      </div>
+      <div class="card">
+        <img src="Velvet Teddy2.jpg"  />
+        <h3>Velvet Teddy</h3>
+      </div>
+      <div class="card">
+        <img src="Velvet Teddy.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/velvet-teddy-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Misty Elephant2.jpg"  />
+        <h3>Misty Elephant</h3>
+      </div>
+      <div class="card">
+        <img src="Misty Elephant.jpg"  />
+        <h3>Misty Elephant</h3>
+      </div>
+      <div class="card">
+        <img src="Misty Elephant.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/misty-elephant-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+<div class="container" id="toys">
+    <div class="grid">
+      <div class="card">
+        <img src="Coral Crab2.jpg"  />
+        <h3>Coral Crab</h3>
+      </div>
+      <div class="card">
+        <img src="Coral Crab.jpg"  />
+        <h3>Coral Crab</h3>
+      </div>
+      <div class="card">
+        <img src="Coral Crab.png"  />
+        <h3>pattern</h3>
+      </div>
+    </div>
+  <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/product/coral-crab-pattern/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    Download knitting pattern
+  </a>
+  </div>
+</div>
+
+  <div class="container" id="about">
+    <h2>About the Designer</h2>
+    <p>I specialize in creating whimsical knitted toys inspired by childhood nostalgia and imaginative storytelling. Each pattern is written with care and crafted for makers of all skill levels.</p>
+  </div>
+
+  <div class="container" id="contact">
+    <div style="max-width:280px; margin:2rem auto 0;">
+    <a href="https://www.creativefabrica.com/designer/the-refined-hook/"
+     style="
+       display:block;
+       width:100%;
+       padding:1.5rem 0;
+       background:#ffffff;
+       color:#333;
+       text-decoration:none;
+       border-radius:14px;
+       font-weight:700;
+       font-size:1.15rem;
+       text-align:center;
+       letter-spacing:0.6px;
+       box-shadow:0 5px 15px rgba(0,0,0,0.15);
+     ">
+    My shop
+  </a>
+  </div>
+  </div>
+
+  <footer class="footer">© 2025 The Refined Hook — Knitted Toy Patterns</footer>
+</body>
+</html>
